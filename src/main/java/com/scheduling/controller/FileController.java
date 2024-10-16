@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.scheduling.service.FileGeneratorService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/home")
 public class FileController {
 
     @Autowired
